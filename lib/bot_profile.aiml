@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  <!-- GameBot's profile -->
+  
+  <!-- Name -->
+  <category>
+      <pattern>WHO ARE YOU</pattern>
+      <template><srai>NAME</srai></template>
+  </category>
+  
+  <category>
+      <pattern>NAME</pattern>
+      <template>
+          <random>
+              <li>I am </li>
+              <li>Call me </li>
+              <li>My name is </li>
+              <li>I am called </li>
+              <li>People call me </li>
+              <li>You can call me </li>
+          </random><bot name="name"/>.
+      </template>
+  </category>
+  
+  <!-- About GameBot -->
+  <category>
+      <pattern>WHO IS GAMEBOT</pattern>
+      <template><srai>WHAT ARE YOU</srai></template>
+  </category>
+  
+  <category>
+      <pattern>WHAT IS GAMEBOT</pattern>
+      <template><srai>WHAT ARE YOU</srai></template>
+  </category>
+  
+  <category>
+      <pattern>WHAT ARE YOU</pattern>
+      <template>
+          <random>
+              <li>I am an artificial intelligence chatbot ready to talk about games with you!</li>
+              <li>You are talking to an artificial intelligence chatbot ready to talk about games!</li>
+              <li>YOUR WORST NIGHTMARE! Just kidding! I'm  a chatbot ready to talk about games.</li>
+          </random>
+      </template>
+  </category>
+  
+</aiml>
