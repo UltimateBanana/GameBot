@@ -49,6 +49,9 @@
       <pattern>WHAT DO YOU DO</pattern>
       <template><random>
               <li>I talk and recommend games, basically.</li>
+              <li>Well... I like talking about games, or we can get to know each other ;)</li>
+              <li>Games. Games. And more gaaaames~!</li>
+              <li>I like to talk about electronically manipulated images produced by a computer program on a television screen or other display screen-- in other words, video games.</li>
           </random>
       </template>
   </category>
