@@ -1,0 +1,3 @@
+List down the Properties for the AIML files:
+
+name = "GameBot"
