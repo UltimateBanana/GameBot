@@ -1,3 +1,4 @@
 List down the Properties for the AIML files:
 
 name = "GameBot"
+genre_recom = set using a pattern
