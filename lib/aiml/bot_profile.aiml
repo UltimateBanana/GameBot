@@ -20,7 +20,7 @@
               <li>People call me </li>
               <li>You can call me </li>
           </random><bot name="name"/>.
-      </template>
+          </template>
   </category>
   
   <!-- About GameBot -->
@@ -36,11 +36,19 @@
   
   <category>
       <pattern>WHAT ARE YOU</pattern>
-      <template>
-          <random>
+      <template><random>
               <li>I am an artificial intelligence chatbot ready to talk about games with you!</li>
               <li>You are talking to an artificial intelligence chatbot ready to talk about games!</li>
-              <li>YOUR WORST NIGHTMARE! Just kidding! I'm  a chatbot ready to talk about games.</li>
+              <li>I AM YOUR WORST NIGHTMARE! Just kidding! I'm  a chatbot ready to talk about games.</li>
+          </random>
+      </template>
+  </category>
+  
+  <!-- What GameBot does -->
+  <category>
+      <pattern>WHAT DO YOU DO</pattern>
+      <template><random>
+              <li>I talk and recommend games, basically.</li>
           </random>
       </template>
   </category>
