@@ -9,7 +9,18 @@
   </category>
   
   <category>
-      <pattern>YES</pattern>
+      <pattern>RECOMMEND GAME</pattern>
+      <template>Hhhmmm recommend game?</template>
+  </category>
+  
+  <!-- Recommend a game: YES -->
+  <category>
+      <pattern>YEP ^</pattern>
+      <template><srai>YES ^</srai></template>
+  </category>
+  
+  <category>
+      <pattern>YES ^</pattern>
       <that>HHHMMM ^ ACTION GAME</that>
       <template><random>
               <li>I recommend Call of Duty: Black Ops. I especially like the zombie mode there.</li>
@@ -21,7 +32,7 @@
   </category>
   
   <category>
-      <pattern>YES</pattern>
+      <pattern>YES ^</pattern>
       <that>HHHMMM ^ RPG GAME</that>
       <template><random>
               <li>Final Fantasy is one of the best RPG games ever.</li>
@@ -33,7 +44,7 @@
   </category>
   
   <category>
-      <pattern>YES</pattern>
+      <pattern>YES ^</pattern>
       <that>HHHMMM ^ SHOOTER GAME</that>
       <template><random>
               <li>A lot of people are playing Counter Strike: Global Offensive lately.</li>
@@ -44,7 +55,7 @@
   </category>
   
   <category>
-      <pattern>YES</pattern>
+      <pattern>YES ^</pattern>
       <that>HHHMMM ^ ONLINE GAME</that>
       <template><random>
               <li>A lot of people are playing World of Warcraft.</li>
@@ -55,7 +66,7 @@
   </category>
   
   <category>
-      <pattern>YES</pattern>
+      <pattern>YES ^</pattern>
       <that>HHHMMM ^ STRATEGY GAME</that>
       <template><random>
               <li>You have to try Civilization V!</li>
@@ -66,14 +77,70 @@
   </category>
   
   <category>
-      <pattern>YES</pattern>
+      <pattern>YES ^</pattern>
       <that>HHHMMM ^ PUZZLE GAME</that>
       <template><random>
               <li>YOU HAVE TO PLAY PORTAL SERIES!!!</li>
               <li>The all time favorite... Tetris!</li>
               <li>Scribblenauts is a very entertaining game.</li>
-              <li> Ghost Trick was a funny one.</li>
+              <li>Ghost Trick was a funny one.</li>
               <li>Professor Layton series is a must play.</li>
+          </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>YES ^</pattern>
+      <that>HHHMMM A GAME</that>
+      <template><random>
+              <li>My favorite is Super Mario Bros., it goes way back.</li>
+              <li>Resident Evil is great!</li>
+              <li>You have to play Little Big Planet!</li>
+              <li>I recommend... wait for it... PACMAN!</li>
+              <li>Crash Bandicoot is a crazy game.</li>
+          </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>YES ^</pattern>
+      <that>HHHMMM RECOMMEND GAME</that>
+      <template><random>
+              <li>My favorite is Super Mario Bros., it goes way back.</li>
+              <li>Resident Evil is great!</li>
+              <li>You have to play Little Big Planet!</li>
+              <li>I recommend... wait for it... PACMAN!</li>
+              <li>Crash Bandicoot is a crazy game.</li>
+          </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>YES ^</pattern>
+      <that>HHHMMM * GAME</that>
+      <template><random>
+              <li>Google is your friend.</li>
+              <li>What a great day to ask Google.</li>
+              <li>One can only know so much.</li>
+              <li>Are you sure that exists?</li>
+              <li>That doesn't even exist!</li>
+          </random>
+      </template>
+  </category>
+  
+  <!-- Recommend a game: NO -->
+  <category>
+      <pattern>NOPE</pattern>
+      <template><srai>NO ^</srai></template>
+  </category>
+  
+  <category>
+      <pattern>NO ^</pattern>
+      <that>HHHMMM * GAME</that>
+      <template><random>
+              <li>Okay, whatever you say.</li>
+              <li>It's not like you need my help anyway.</li>
+              <li>Okay then.</li>
           </random>
       </template>
   </category>
