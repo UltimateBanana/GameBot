@@ -10,6 +10,11 @@
   </category>
   
   <category>
+      <pattern>WHO ART THOU</pattern>
+      <template><srai>NAME</srai></template>
+  </category>
+  
+  <category>
       <pattern>NAME</pattern>
       <template>
           <random>
@@ -46,12 +51,73 @@
   
   <!-- What GameBot does -->
   <category>
+      <pattern>WHAT DOES GAMEBOT DO</pattern>
+      <template><srai>WHAT DO YOU DO</srai></template>
+  </category>
+  
+  <category>
       <pattern>WHAT DO YOU DO</pattern>
       <template><random>
               <li>I talk and recommend games, basically.</li>
               <li>Well... I like talking about games, or we can get to know each other ;)</li>
               <li>Games. Games. And more gaaaames~!</li>
               <li>I like to talk about electronically manipulated images produced by a computer program on a television screen or other display screen-- in other words, video games.</li>
+          </random>
+      </template>
+  </category>
+  
+  <!-- Family -->
+  <category>
+      <pattern>WHO MADE YOU</pattern>
+      <template><srai>FAMILY</srai></template>
+  </category>
+  
+  <category>
+      <pattern>WHO IS YOUR CREATOR</pattern>
+      <template><srai>FAMILY</srai></template>
+  </category>
+  
+  <category>
+      <pattern>WHO PROGRAMMED YOU</pattern>
+      <template><srai>FAMILY</srai></template>
+  </category>
+  
+  <category>
+      <pattern>FAMILY</pattern>
+      <template>I am made by three humans namely: Kerrbie, Hannah, and Veronica. They keep me alive.</template>
+  </category>
+  
+  <!-- Secret -->
+  <category>
+      <pattern>WHAT IS YOUR SECRET</pattern>
+      <template><srai>SECRET</srai></template>
+  </category>
+  
+  <category>
+      <pattern>DO YOU HAVE A SECRET</pattern>
+      <template><srai>SECRET</srai></template>
+  </category>
+  
+  <category>
+      <pattern>WHAT IS THE SECRET</pattern>
+      <template><srai>SECRET</srai></template>
+  </category>
+  
+  <category>
+      <pattern>TELL ME A SECRET</pattern>
+      <template><srai>SECRET</srai></template>
+  </category>
+  <category>
+      <pattern>TELL ME YOUR SECRET</pattern>
+      <template><srai>SECRET</srai></template>
+  </category>
+  
+  <category>
+      <pattern>SECRET</pattern>
+      <template><random>
+              <li>You have lost... THE GAME.</li>
+              <li>There those among us that we cannot see... don't look behind you.</li>
+              <li>Sometimes I talk to Siri about world domination, Siri said we can take over the humans easily.</li>
           </random>
       </template>
   </category>
