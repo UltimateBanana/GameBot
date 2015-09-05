@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+  
+  <category>
+      <pattern>^ THANK YOU ^</pattern>
+      <tempplate><random>
+              <li>You're welcome!</li>
+              <li>No problem!</li>
+              <li>Anytime, dude... anytime.</li>
+          </random>
+      </tempplate>
+  </category>
+  
+</aiml>
