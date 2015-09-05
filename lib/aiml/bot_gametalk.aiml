@@ -2,7 +2,7 @@
 <aiml version="2.0">
   <!-- insert your AIML categories here -->
   
-  <!-- Recommend a game given a genre -->
+  <!-- RECOMMEND A GAME GIVEN A GENRE -->
   <category>
       <pattern># RECOMMEND * GAME</pattern>
       <template>Hhhmmm <set name="genre_recom"><star index="2"/></set> game?</template>
@@ -149,5 +149,9 @@
           </random>
       </template>
   </category>
+  
+  
+  
+  <!-- TOP 3 GENRE GAMES -->
   
 </aiml>
