@@ -2,7 +2,27 @@
 <aiml version="2.0">
   <!-- insert your AIML categories here -->
   
-  <!-- Recommend a game given a genre -->
+  <!-- GENRE DESCRIPTION -->
+  <category>
+      <pattern>WHAT IS ^ <set>genre</set> GENRE</pattern>
+      <template>
+          <star index="2"/> is a <map name="genredescrip"><star index="2"/></map>.
+      </template>
+  </category>
+  
+  <category>
+      <pattern>WHAT IS * GENRE</pattern>
+      <template>
+        <random>
+            <li>Why don't you google it!</li>
+            <li>I haven't heard of that genre before...</li>
+        </random>
+       </template>
+  </category>
+  
+  
+  
+  <!-- RECOMMEND A GAME GIVEN A GENRE -->
   <category>
       <pattern>^ RECOMMEND ^ <set>genre</set> GAME</pattern>
       <template>Hhhmmm <star index="3"/> game?</template>
