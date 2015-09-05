@@ -35,6 +35,11 @@
   </category>
   
   <category>
+      <pattern>TELL ME ABOUT YOURSELF</pattern>
+      <template><srai>WHAT ARE YOU</srai></template>
+  </category>
+  
+  <category>
       <pattern>WHAT IS GAMEBOT</pattern>
       <template><srai>WHAT ARE YOU</srai></template>
   </category>
