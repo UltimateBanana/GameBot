@@ -2,19 +2,19 @@
 <aiml version="2.0">
   <!-- insert your AIML categories here -->
   
-  <!-- RECOMMEND A GAME GIVEN A GENRE -->
+  <!-- Recommend a game given a genre -->
   <category>
-      <pattern># RECOMMEND * GAME</pattern>
-      <template>Hhhmmm <set name="genre_recom"><star index="2"/></set> game?</template>
+      <pattern>^ RECOMMEND ^ <set>genre</set> GAME</pattern>
+      <template>Hhhmmm <star index="3"/> game?</template>
   </category>
   
   <category>
-      <pattern># RECOMMEND GAMES</pattern>
-      <template><srai># RECOMMEND GAME</srai></template>
+      <pattern>^ RECOMMEND ^ GAMES</pattern>
+      <template><srai>^ RECOMMEND GAME</srai></template>
   </category>
   
   <category>
-      <pattern># RECOMMEND GAME</pattern>
+      <pattern>^ RECOMMEND GAME</pattern>
       <template>Hhhmmm recommend game?</template>
   </category>
   
@@ -26,7 +26,7 @@
   
   <category>
       <pattern>YES ^</pattern>
-      <that>HHHMMM ^ ACTION GAME</that>
+      <that>HHHMMM ACTION GAME</that>
       <template><random>
               <li>I recommend Call of Duty: Black Ops. I especially like the zombie mode there.</li>
               <li>Hhhmmm... How about Metal Gear Solid series? It's been an all time favorite for how many years.</li>
@@ -38,7 +38,7 @@
   
   <category>
       <pattern>YES ^</pattern>
-      <that>HHHMMM ^ RPG GAME</that>
+      <that>HHHMMM RPG GAME</that>
       <template><random>
               <li>Final Fantasy is one of the best RPG games ever.</li>
               <li>Diablo is definitely a good one.</li>
@@ -50,7 +50,7 @@
   
   <category>
       <pattern>YES ^</pattern>
-      <that>HHHMMM ^ SHOOTER GAME</that>
+      <that>HHHMMM SHOOTER GAME</that>
       <template><random>
               <li>A lot of people are playing Counter Strike: Global Offensive lately.</li>
               <li>Call of Duty: Modern Warfare is a good game.</li>
@@ -61,7 +61,7 @@
   
   <category>
       <pattern>YES ^</pattern>
-      <that>HHHMMM ^ ONLINE GAME</that>
+      <that>HHHMMM ONLINE GAME</that>
       <template><random>
               <li>A lot of people are playing World of Warcraft.</li>
               <li>A few of my friends say that RuneScape is a great game!</li>
@@ -72,7 +72,7 @@
   
   <category>
       <pattern>YES ^</pattern>
-      <that>HHHMMM ^ STRATEGY GAME</that>
+      <that>HHHMMM STRATEGY GAME</that>
       <template><random>
               <li>You have to try Civilization V!</li>
               <li>StarCraft is a must play!</li>
@@ -83,26 +83,13 @@
   
   <category>
       <pattern>^ YES ^</pattern>
-      <that>HHHMMM ^ PUZZLE GAME</that>
+      <that>HHHMMM PUZZLE GAME</that>
       <template><random>
               <li>YOU HAVE TO PLAY PORTAL SERIES!!!</li>
               <li>The all time favorite... Tetris!</li>
               <li>Scribblenauts is a very entertaining game.</li>
               <li>Ghost Trick was a funny one.</li>
               <li>Professor Layton series is a must play.</li>
-          </random>
-      </template>
-  </category>
-  
-  <category>
-      <pattern>YES ^</pattern>
-      <that>HHHMMM A GAME</that>
-      <template><random>
-              <li>My favorite is Super Mario Bros., it goes way back.</li>
-              <li>Resident Evil is great!</li>
-              <li>You have to play Little Big Planet!</li>
-              <li>I recommend... wait for it... PACMAN!</li>
-              <li>Crash Bandicoot is a crazy game.</li>
           </random>
       </template>
   </category>
@@ -135,7 +122,7 @@
   
   <!-- Recommend a game: NO -->
   <category>
-      <pattern>NOPE ^</pattern>
+      <pattern>NOPE</pattern>
       <template><srai>NO ^</srai></template>
   </category>
   
@@ -149,9 +136,5 @@
           </random>
       </template>
   </category>
-  
-  
-  
-  <!-- TOP 3 GENRE GAMES -->
   
 </aiml>
